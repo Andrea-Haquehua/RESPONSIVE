@@ -51,16 +51,12 @@
 
 }
 .active{
-    transform: translateX(0%);
+    transform: translateX(100%);
 
 }
 .main-content img{
     width: 25%;
-    animation: moveRight 5s linear 0s,   
-    lookUp 2.5s linear 5s,    
-    moveLeft 5s linear 7.5s,  
-    dissapear 2s linear 9.5s;
-    fill-opacity: inherit;
+  
 }
 .main-content a{
     text-decoration: white;
@@ -73,7 +69,7 @@
     font-size: 50px;
     justify-content: space-between;
 }
-@media screen and (min-width:300px) {
+@media screen and (min-width:600px) {
     .menu-items{
         position: static;
         width: auto;
