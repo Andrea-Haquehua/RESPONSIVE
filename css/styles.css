@@ -51,7 +51,7 @@
 
 }
 .active{
-    transform: translateX(100%);
+    transform: translateX(0%);
 
 }
 .main-content img{
@@ -74,7 +74,7 @@
         position: static;
         width: auto;
         height: auto;
-        background-color: black;
+        background-color: none;
         display: flex;
         flex-direction: row;
         width: 30%;
