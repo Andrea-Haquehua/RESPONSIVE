@@ -31,7 +31,7 @@
     height: 100vh;
     top: 13.8%;
     right: 0px;
-    transform: translateX(10%);
+    transform: translateX(100%);
     transition: all 5s;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
 
 }
 .active{
-    transform: translateX(0%);
+    transform: translateX(100%);
 
 }
 .main-content img{
@@ -82,6 +82,6 @@
     }
 
     .menu-btn{
-        display: none;
+        display: flex;
     }
 }
