@@ -31,7 +31,7 @@
     height: 100vh;
     top: 13.8%;
     right: 0px;
-    transform: translateX(100%);
+    transform: translateX(10%);
     transition: all 5s;
     display: flex;
     flex-direction: column;
